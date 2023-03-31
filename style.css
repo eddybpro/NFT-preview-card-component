@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --soft-blue: hsla(215, 51%, 70%,.1);
+    --cyan: hsl(178, 100%, 50%);
+    --cyan-bg: hsla(178, 100%, 50%, .5);
+    --gray :hsl(217, 28%, 45%);
+    --very-dark-blue-main-bg : hsl(217, 54%, 11%);
+    --very-dark-blue-card-bg: hsla(216, 50%, 16%, .2);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--very-dark-blue-main-bg);
+}
+
+main{
+    max-width:400px ;
+    background-color: var(--very-dark-blue-card-bg);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+main .b-container{
+    background-color: var(--very-dark-blue-main-bg);
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+main .container{
+    background-color: var(--soft-blue);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+main .container .img-container{
+    height: 300px;
+    background: url('images/image-equilibrium.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+main .img-container:hover{
+    box-shadow: inset 0 0 0 1000px var(--cyan-bg);
+}
+
+main .img-container:hover .view{
+    display: block;
+}
+
+main .img-container .view{
+    display: none;
+}
+
+main .text .link-title{
+    color: var(--white);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+main .text .link-title:hover{
+    color: var(--cyan);
+}
+
+main .text .title{
+    margin-bottom: .75rem;
+}
+
+main .text .para{
+    color: var(--gray);
+    margin-bottom: .75rem;
+    font-size: 1rem;
+}
+
+main .text .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+main .text .box .left,
+main .text .box .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+main .text .box .left{
+    color: var(--cyan);
+}
+
+main .text .box .right{
+    color: var(--gray);
+}
+
+main .text .line{
+    border: 1px solid var(--very-dark-blue-line);
+    margin-bottom: 1rem;
+}
+
+main .text .review{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--gray);
+    gap: .5rem;
+}
+
+main .text .review img{
+    width: 35px;
+    height: 35px;
+    border :1px solid var(--white);
+    border-radius: 50%;
+}
+
+main .text .review p a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+main .text .review p a:hover{
+    color: var(--cyan);
+}
+
+footer{
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cyan);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
